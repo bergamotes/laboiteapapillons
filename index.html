@@ -34,12 +34,12 @@ html,body{
   height:100%;
   background-color: #fdfdfd;
 }
-/*Trick to load background hover*/
-body:after{
+/*
+ body:after{
  display:none;
- /*content: url(img/ButtiesHover.gif*/
  content:url('img/Book800wHover.jpg');
 }
+*/
 .container{
   height:100%;
 }
@@ -52,6 +52,7 @@ body:after{
   width:100%;
   height:100%;
   margin:auto;
+  /*Trick to preload image*/
   background: url('img/Book800wHover.jpg') no-repeat -9999px -9999px;
 }
 .topContent a{
@@ -71,6 +72,7 @@ body:after{
   display:block;
   width:100%;
   height:30%;
+  background: url('img/ButtiesHover.gif') no-repeat -9999px -9999px;
 }
 .bottomContent{
   width:100%;
